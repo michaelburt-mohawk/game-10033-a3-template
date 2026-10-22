@@ -19,6 +19,12 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
+            // use the proper size for your assignment design
+            Window.SetSize(400, 400);
+
+            // create a title that matches your assignment
+            Window.SetTitle("Assignment 3 Title");
+
             object1.Setup();
             object2.Setup();
             object3.Setup();
@@ -31,6 +37,9 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
+            // choose a background color as appropriate
+            Window.ClearBackground(Color.OffWhite);
+
             object1.Update();
             object2.Update();
             object3.Update();
